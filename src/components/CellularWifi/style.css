@@ -1,0 +1,72 @@
+.cellular-wifi {
+  height: 13px;
+  position: relative;
+  width: 78px;
+}
+
+.cellular-wifi .battery {
+  height: 13px;
+  left: 51px;
+  position: absolute;
+  top: 0;
+  width: 27px;
+}
+
+.cellular-wifi .overlap-group {
+  border: 1px solid;
+  border-radius: 3.5px;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.cellular-wifi .capacity {
+  border-radius: 1.33px;
+  height: 9px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 21px;
+}
+
+.cellular-wifi .cap {
+  height: 4px;
+  left: 26px;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+
+.cellular-wifi .wifi {
+  height: 12px;
+  left: 27px;
+  position: absolute;
+  top: 1px;
+  width: 17px;
+}
+
+.cellular-wifi .cellular-connection {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 19px;
+}
+
+.cellular-wifi .on {
+  border-color: #ffffff59;
+}
+
+.cellular-wifi .off {
+  border-color: #00000059;
+}
+
+.cellular-wifi .overlap-group.on .capacity {
+  background-color: #ffffff;
+}
+
+.cellular-wifi .overlap-group.off .capacity {
+  background-color: #000000;
+}
